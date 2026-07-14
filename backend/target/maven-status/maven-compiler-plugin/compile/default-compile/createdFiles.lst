@@ -1,0 +1,16 @@
+com\campuscare\entity\Department$DepartmentBuilder.class
+com\campuscare\entity\Complaint.class
+com\campuscare\security\SecurityConfig.class
+com\campuscare\controller\package-info.class
+com\campuscare\security\package-info.class
+com\campuscare\repository\package-info.class
+com\campuscare\CampusCareBackendApplication.class
+com\campuscare\config\package-info.class
+com\campuscare\repository\ComplaintRepository.class
+com\campuscare\service\package-info.class
+com\campuscare\entity\Department.class
+com\campuscare\controller\ComplaintController.class
+com\campuscare\entity\package-info.class
+com\campuscare\dto\package-info.class
+com\campuscare\entity\Complaint$ComplaintBuilder.class
+com\campuscare\repository\DepartmentRepository.class

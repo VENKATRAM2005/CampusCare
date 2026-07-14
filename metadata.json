@@ -1,0 +1,7 @@
+{
+  "name": "CampusCare - Intelligent College Grievance Resolution System",
+  "description": "An enterprise-grade, AI-powered platform for hierarchical grievance management, featuring automated classification, priority detection, and tiered escalation governance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
