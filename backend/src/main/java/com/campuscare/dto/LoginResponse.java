@@ -16,9 +16,13 @@ public class LoginResponse {
 
     private String token;
 
-    private Role role;
-
     private String name;
 
-    private String email;
+    private Role role;
+
+    private String department;
+
+    private Integer year;
+
+    private Boolean firstLogin;
 }

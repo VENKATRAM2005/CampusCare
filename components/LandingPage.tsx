@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Role, UserSession, Department } from '../types';
 import { GraduationCap, ShieldCheck, Briefcase, UserRoundSearch, Shield, ArrowLeft, Lock, User as UserIcon } from 'lucide-react';
-import { MOCK_USERS } from '../constants';
-
+import { login } from '../services/authApi';
 interface LandingPageProps {
   onLogin: (session: UserSession) => void;
 }
@@ -29,20 +28,29 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
   }, [userId, selectedRole]);
 
   const handleLoginSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setError('');
-    
-    const user = (MOCK_USERS as any)[userId];
-    if (user && user.role === selectedRole && user.password === password) {
-      onLogin({
-        id: userId,
-        name: user.name,
-        role: user.role,
-        department: user.dept as Department
-      });
-    } else {
-      setError('Invalid ID or Password for this role.');
-    }
+const handleLoginSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setError('');
+
+  try {
+    const response = await login({
+      email: userId,
+      password: password
+    });
+
+    localStorage.setItem("jwt", response.token);
+
+    onLogin({
+      id: response.email,
+      name: response.name,
+      role: response.role as Role,
+      department: Department.CSE // temporary
+    });
+
+  } catch (err) {
+    setError("Invalid Email or Password");
+  }
+};
   };
 
   if (selectedRole) {

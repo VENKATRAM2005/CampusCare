@@ -14,6 +14,8 @@ import lombok.Setter;
 @Builder
 public class RegisterRequest {
 
+    private String loginId;
+
     private String name;
 
     private String email;
@@ -23,4 +25,6 @@ public class RegisterRequest {
     private Role role;
 
     private String department;
+
+    private Integer year;
 }
