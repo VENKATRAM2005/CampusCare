@@ -25,6 +25,7 @@ G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\enti
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\BadRequestException.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\GlobalExceptionHandler.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\UnauthorizedException.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\ValidationErrorResponse.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\DepartmentRepository.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\UserRepository.java
