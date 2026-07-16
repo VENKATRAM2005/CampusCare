@@ -11,6 +11,8 @@ G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\cont
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\controller\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ChangePasswordRequest.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ChangePasswordResponse.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ComplaintCreateRequest.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ComplaintResponse.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\LoginRequest.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\LoginResponse.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\package-info.java

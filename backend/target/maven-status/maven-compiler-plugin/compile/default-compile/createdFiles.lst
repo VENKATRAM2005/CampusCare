@@ -15,14 +15,17 @@ com\campuscare\exception\GlobalExceptionHandler.class
 com\campuscare\security\package-info.class
 com\campuscare\repository\package-info.class
 com\campuscare\dto\ChangePasswordResponse$ChangePasswordResponseBuilder.class
+com\campuscare\complaint\dto\ComplaintResponse.class
 com\campuscare\dto\ChangePasswordRequest.class
 com\campuscare\dto\RegisterRequest$RegisterRequestBuilder.class
 com\campuscare\controller\AuthController.class
 com\campuscare\dto\LoginResponse.class
 com\campuscare\service\ComplaintService.class
+com\campuscare\complaint\dto\ComplaintCreateRequest.class
 com\campuscare\dto\LoginResponse$LoginResponseBuilder.class
 com\campuscare\security\JwtService.class
 com\campuscare\CampusCareBackendApplication.class
+com\campuscare\complaint\dto\ComplaintResponse$ComplaintResponseBuilder.class
 com\campuscare\dto\UserLookupResponse$UserLookupResponseBuilder.class
 com\campuscare\config\package-info.class
 com\campuscare\repository\ComplaintRepository.class
