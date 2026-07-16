@@ -19,6 +19,7 @@ com\campuscare\dto\ChangePasswordRequest.class
 com\campuscare\dto\RegisterRequest$RegisterRequestBuilder.class
 com\campuscare\controller\AuthController.class
 com\campuscare\dto\LoginResponse.class
+com\campuscare\service\ComplaintService.class
 com\campuscare\dto\LoginResponse$LoginResponseBuilder.class
 com\campuscare\security\JwtService.class
 com\campuscare\CampusCareBackendApplication.class
