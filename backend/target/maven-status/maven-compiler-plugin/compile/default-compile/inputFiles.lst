@@ -1,10 +1,13 @@
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\CampusCareBackendApplication.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\complaint\controller\ComplaintController.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\complaint\entity\Complaint.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\complaint\repository\ComplaintRepository.java
+G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\complaint\service\ComplaintService.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\config\ApplicationConfig.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\config\DataInitializer.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\config\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\config\PasswordConfig.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\controller\AuthController.java
-G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\controller\ComplaintController.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\controller\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ChangePasswordRequest.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\ChangePasswordResponse.java
@@ -13,7 +16,6 @@ G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\RegisterRequest.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\dto\UserLookupResponse.java
-G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\entity\Complaint.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\entity\Department.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\entity\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\entity\Role.java
@@ -21,7 +23,6 @@ G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\enti
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\BadRequestException.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\GlobalExceptionHandler.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\exception\UnauthorizedException.java
-G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\ComplaintRepository.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\DepartmentRepository.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\repository\UserRepository.java
@@ -31,5 +32,4 @@ G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\secu
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\security\package-info.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\security\SecurityConfig.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\service\AuthService.java
-G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\service\ComplaintService.java
 G:\VR CODEVAULT\VR PROJECTS\CampusCare\backend\src\main\java\com\campuscare\service\package-info.java

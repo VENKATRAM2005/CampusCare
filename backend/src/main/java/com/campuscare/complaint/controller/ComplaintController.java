@@ -25,7 +25,7 @@ public class ComplaintController {
 
     @PostMapping
     public Complaint createComplaint(@RequestBody Complaint complaint) {
-        return complaintRepository.save(complaint);
+        return complaintService.createComplaint(complaint);
     }
 
     @PutMapping("/{id}")

@@ -2,6 +2,7 @@ package com.campuscare.service;
 
 import com.campuscare.entity.Complaint;
 import com.campuscare.repository.ComplaintRepository;
+import java.time.LocalDateTime;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -14,5 +15,13 @@ public class ComplaintService {
 
     public List<Complaint> getAllComplaints() {
         return complaintRepository.findAll();
+    }
+
+    public Complaint createComplaint(Complaint complaint) {
+
+        complaint.setCreatedAt(LocalDateTime.now());
+        complaint.setUpdatedAt(LocalDateTime.now());
+
+        return complaintRepository.save(complaint);
     }
 }
