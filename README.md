@@ -1,5 +1,19 @@
 # 🎓 CampusCare
-![Status](https://img.shields.io/badge/status-active_development-orange)
+# 🎓 CampusCare
+
+![Status](https://img.shields.io/badge/Status-Active_Development-orange)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-4169E1?logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?logo=jsonwebtokens&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?logo=google&logoColor=white)
+![REST API](https://img.shields.io/badge/API-REST-009688)
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-success)
 
 > Intelligent campus grievance management platform built using **Spring Boot**, **React**, and **PostgreSQL**, featuring AI-assisted complaint analysis and role-based workflows.
 
