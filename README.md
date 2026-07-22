@@ -1,4 +1,5 @@
 # 🎓 CampusCare
+![Status](https://img.shields.io/badge/status-active_development-orange)
 
 > Intelligent campus grievance management platform built using **Spring Boot**, **React**, and **PostgreSQL**, featuring AI-assisted complaint analysis and role-based workflows.
 
